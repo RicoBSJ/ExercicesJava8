@@ -1,4 +1,4 @@
-package exercices.java.section.trois;
+package exercices.java.section.trois.SAMInterfacesFonctionnelles;
 
 import javax.swing.*;
 

@@ -1,4 +1,4 @@
-package exercices.java.section.deux;
+package exercices.java.section.deux.expressionsLambdas;
 
 interface MonInterface {
 

@@ -24,9 +24,11 @@ public class Streams {
                 .map(String::toUpperCase)
                 .forEach(System.out::println);
 
-        /*Optional somme = Stream.of("Fabien", "Eric", "RicoBSJ")
+        /*Optional<Integer> somme = Stream.of("Fabien", "Eric", "RicoBSJ")
                 .filter(s -> s.length()<7)
                 .map(s -> s.length())
-                .reduce((11),(12)->11+12);*/
+                .reduce((11),(12))
+
+        System.out.println("Somme : "+somme.get());*/
     }
 }
